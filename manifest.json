@@ -1,0 +1,22 @@
+manifest_content = {
+    "name": "Elena – Muse by Code",
+    "short_name": "Elena AI",
+    "description": "Elena es una musa digital creada por inteligencia artificial. Curada con alma.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#f4f2f1",
+    "theme_color": "#d4b2c4",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "https://aielena2025.github.io/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "https://aielena2025.github.io/shop-content/assets/post3.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
