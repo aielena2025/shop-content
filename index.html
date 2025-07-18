@@ -157,7 +157,13 @@
     <img src="assets/oracion2.png" alt="Oración 2">
     <img src="assets/oracion3.png" alt="Oración 3">
   </div>
-
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "0dd3367a-39f5-45b5-9b8e-4fef7bcd1129",
+        apiHost: "https://v1-agentes.matiasvaldivia.com.ar",
+    })
+</script>
   <footer>
     Hecho con amor y código · © Elena 2025
   </footer>
