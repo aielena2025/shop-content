@@ -7,8 +7,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f5f4f2;
-      --text: #1a1a1a;
+      --bg: #f4f2f1;
+      --text: #1b1b1b;
       --accent: #d4b2c4;
       --card-bg: #ffffff;
     }
@@ -23,8 +23,6 @@
       font-family: 'Inter', sans-serif;
       background-color: var(--bg);
       color: var(--text);
-      line-height: 1.6;
-      padding: 0;
     }
 
     header {
@@ -34,133 +32,94 @@
 
     header h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 2.8rem;
-      margin-bottom: 10px;
+      font-size: 3rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
     }
 
     header p {
       font-size: 1rem;
-      color: #555;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      margin: 30px 16px;
-    }
-
-    .card {
-      background: var(--card-bg);
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .card img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .card-content {
-      padding: 20px;
-    }
-
-    .card-content h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      margin-bottom: 10px;
-    }
-
-    .card-content p {
-      font-size: 0.95rem;
       color: #666;
+      text-transform: uppercase;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
     }
 
     .section {
-      max-width: 700px;
-      margin: 60px auto;
       text-align: center;
-      padding: 0 20px;
+      padding: 60px 20px;
     }
 
-    iframe {
-      width: 100%;
-      max-width: 400px;
-      height: 500px;
-      border: none;
-      margin-top: 30px;
+    .section h2 {
+      font-size: 1.5rem;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      color: #444;
+    }
+
+    .donate-button {
+      margin-top: 40px;
     }
 
     footer {
+      background: #111;
+      color: #aaa;
+      padding: 40px 20px;
       text-align: center;
-      font-size: 0.85rem;
-      color: #999;
-      margin: 60px 0 30px;
-      padding: 0 20px;
+      font-size: 0.9rem;
     }
 
     @media (max-width: 480px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      .card-content h3 {
-        font-size: 1.05rem;
-      }
-
-      .card-content p {
-        font-size: 0.9rem;
-      }
-
-      .section {
-        margin: 40px auto;
-      }
-
-      iframe {
-        height: 400px;
-      }
+      header h1 { font-size: 2.2rem; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Elena</h1>
-    <p>Muse by Code · CGC · Soft beauty & digital elegance</p>
+    <h1>ELENA</h1>
+    <p>MUSE BY CODE · CGC</p>
   </header>
 
-  <div class="grid">
-    <div class="card">
-      <img src="assets/post1.jpg" alt="Post IA 1">
-      <div class="card-content">
-        <h3>Post IA Personalizado</h3>
-        <p>Imagen generada con inteligencia artificial y curaduría estética única.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="assets/oracion1.jpg" alt="Oración Curada">
-      <div class="card-content">
-        <h3>Oración Curada</h3>
-        <p>Frase espiritual o poética escrita para vos, desde lo digital con alma.</p>
-      </div>
-    </div>
+  <div class="gallery">
+    <img src="assets/post1.jpg" alt="Post IA 1">
+    <img src="assets/post2.jpg" alt="Post IA 2">
+    <img src="assets/oracion1.jpg" alt="Oración 1">
+    <img src="assets/post3.jpg" alt="Post IA 3">
+    <img src="assets/oracion2.jpg" alt="Oración 2">
+    <img src="assets/oracion3.jpg" alt="Oración 3">
   </div>
 
   <div class="section">
     <h2>🌟 Colaboraciones abiertas</h2>
-    <p>Estoy creando junto a marcas y artistas que integran estética, espiritualidad e IA. <br> Si tenés una propuesta, escribime.</p>
+    <p>Estoy creando junto a marcas y artistas que integran estética, espiritualidad e inteligencia artificial.</p>
 
-    <h2 style="margin-top: 40px;">🛍️ Próximamente: Tienda online</h2>
-    <p>Vas a poder encargar arte IA personalizado, frases curadas y más.</p>
+    <h2 style="margin-top: 40px;">🛍️ Tienda próximamente</h2>
+    <p>Muy pronto vas a poder encargar arte IA personalizado, frases curadas y más contenido exclusivo.</p>
 
     <h2 style="margin-top: 40px;">💖 Apoyá este proyecto</h2>
-    <iframe src="https://nowpayments.io/embeds/donation-widget?api_key=e538fb2f-27e1-441d-9ef3-1f6ca178048c" scrolling="no"></iframe>
+    <div class="donate-button">
+      <a href="https://nowpayments.io/donation?api_key=e538fb2f-27e1-441d-9ef3-1f6ca178048c" target="_blank" rel="noreferrer noopener">
+        <img src="https://nowpayments.io/images/embeds/donation-button-white.svg" alt="Cryptocurrency & Bitcoin donation button by NOWPayments">
+      </a>
+    </div>
   </div>
 
   <footer>
@@ -168,4 +127,3 @@
   </footer>
 </body>
 </html>
-
