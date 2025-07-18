@@ -56,6 +56,12 @@
       width: 100%;
       border-radius: 12px;
       object-fit: cover;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
 
     .section {
@@ -79,6 +85,15 @@
       margin-top: 40px;
     }
 
+    .donate-button img {
+      max-width: 240px;
+      transition: transform 0.3s ease;
+    }
+
+    .donate-button img:hover {
+      transform: scale(1.05);
+    }
+
     footer {
       background: #111;
       color: #aaa;
@@ -99,12 +114,12 @@
   </header>
 
   <div class="gallery">
-    <img src="assets/post1.png" alt="Post IA 1">
-    <img src="assets/post2.png" alt="Post IA 2">
-    <img src="assets/oracion1.jpg" alt="Oración 1">
-    <img src="assets/post3.png" alt="Post IA 3">
-    <img src="assets/oracion2.png" alt="Oración 2">
-    <img src="assets/oracion3.png" alt="Oración 3">
+    <img src="shop-content/assets/post1.png" alt="elena ai ">
+    <img src="shop-content/assets/post2.png" alt="elena ai">
+    <img src="shop-content/assets/oracion1.jpg" alt="elena ai">
+    <img src="shop-content/assets/post3.png" alt="elena ai 3">
+    <img src="shop-content/assets/oracion2.png" alt="elena ai">
+    <img src="shop-content/assets/oracion3.png" alt="elena ai">
   </div>
 
   <div class="section">
@@ -127,3 +142,4 @@
   </footer>
 </body>
 </html>
+
