@@ -1,0 +1,44 @@
+[
+  {
+    "id": "post1",
+    "titulo": "Post IA Personalizado",
+    "descripcion": "Imagen generada por IA con estilo editorial y curaduría estética.",
+    "imagen": "assets/post1.jpg",
+    "tipo": "post"
+  },
+  {
+    "id": "post2",
+    "titulo": "Retrato Fashion",
+    "descripcion": "Retrato generado con IA, inspirado en revistas de moda.",
+    "imagen": "assets/post2.jpg",
+    "tipo": "post"
+  },
+  {
+    "id": "post3",
+    "titulo": "Lookbook Digital",
+    "descripcion": "Composición inspirada en editoriales retrofuturistas.",
+    "imagen": "assets/post3.jpg",
+    "tipo": "post"
+  },
+  {
+    "id": "oracion1",
+    "titulo": "Oración para el alma",
+    "descripcion": "Frase curada con intención espiritual y visual minimalista.",
+    "imagen": "assets/oracion1.jpg",
+    "tipo": "oracion"
+  },
+  {
+    "id": "oracion2",
+    "titulo": "Mensaje sagrado",
+    "descripcion": "Palabras suaves sobre fondo cálido.",
+    "imagen": "assets/oracion2.jpg",
+    "tipo": "oracion"
+  },
+  {
+    "id": "oracion3",
+    "titulo": "Naturaleza & Luz",
+    "descripcion": "Oración visual con conexión simbólica.",
+    "imagen": "assets/oracion3.jpg",
+    "tipo": "oracion"
+  }
+]
